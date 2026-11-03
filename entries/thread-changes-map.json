@@ -1,0 +1,35 @@
+{
+  "id": "thread-changes-map",
+  "displayName": "Thread Changes Map",
+  "description": "See what a thread's changes touch while it works: a live system diagram that tags each new, changed, and impacted part. A background agent reads the conversation, the plan bar, and git diff, and redraws the map after each turn and during long turns. Play a request flow hop by hop, or click a part for its decisions, plan steps, and files. The same map opens in a browser page for a second screen. The mapper is a second agent thread on your provider, so each update costs tokens; it sleeps after 15 idle minutes.",
+  "icon": "Workflow",
+  "tags": [
+    "architecture",
+    "system-design",
+    "diagram",
+    "change-impact",
+    "git-diff",
+    "visualization",
+    "flows",
+    "background-agent"
+  ],
+  "author": {
+    "name": "Jason Deland",
+    "github": "jaydeland",
+    "url": "https://github.com/jaydeland"
+  },
+  "category": "thread-content",
+  "secondaryCategories": ["code-and-reviews"],
+  "source": {
+    "git": {
+      "url": "https://github.com/jaydeland/bb-plugin-thread-changes-map.git",
+      "range": "^0.1.0"
+    }
+  },
+  "screenshots": [
+    "./screenshots/thread-changes-map/panel.png",
+    "./screenshots/thread-changes-map/flow.png",
+    "./screenshots/thread-changes-map/details.png"
+  ],
+  "overview": "./overview/thread-changes-map.md"
+}
